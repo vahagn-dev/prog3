@@ -121,3 +121,4 @@ function draw() {
         ForestmanArr[i].die();
     }
 }
+//git
