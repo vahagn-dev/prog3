@@ -94,7 +94,7 @@ function draw() {
     }
 
     for (var i in grassArr) {
-        grassArr[i].mul();
+        grassArr[i].mul(Grass,1,8);
     }
     for (var i in grassEatArr) {
         grassEatArr[i].move();
